@@ -6,7 +6,7 @@ window.SITE_CONFIG = {
   /* ---- OTP verification -----------------------------------
      true  = phone number must be verified by SMS OTP (MSG91)
      false = OTP step is hidden on ALL forms                    */
-  OTP_ENABLED: false,
+  OTP_ENABLED: true,
 
   /* ---- MSG91 OTP widget ----------------------------------- */
   MSG91: {
