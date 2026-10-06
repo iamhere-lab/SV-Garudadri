@@ -275,7 +275,7 @@ p  { color: var(--muted); }
 .loc-pills span { background: #fff; border: 1px solid var(--line); padding: 8px 14px; border-radius: 999px; font-size: 13px; font-weight: 500; display: inline-flex; gap: 8px; align-items: center; }
 
 /* ---------- Trust ---------- */
-.trust-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
+.trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
 .trust-card { background: #fff; border-radius: var(--radius); padding: 24px 18px; text-align: center; box-shadow: var(--shadow); }
 .trust-card .logo { height: 70px; display: grid; place-items: center; margin-bottom: 14px; }
 .trust-card .logo img { max-height: 70px; width: auto; object-fit: contain; }
