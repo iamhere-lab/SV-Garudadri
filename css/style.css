@@ -346,7 +346,7 @@ p  { color: var(--muted); }
 .modal-side { background: var(--dark) url("../images/elevation-day.jpg") center/cover; position: relative; color: #fff; padding: 36px; display: flex; flex-direction: column; justify-content: flex-start; }
 .modal-side::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,2,45,.25), rgba(0,2,45,.92)); }
 .modal-side > * { position: relative; }
-.modal-side .offer { font-family: var(--font-head); font-size: 1.7rem; line-height: 1.2; color: #fff; }
+.modal-side .offer { font-family: var(--font-head); font-size: 2.5rem; line-height: 1.2; color: #fff; }
 .modal-side .offer span { color: var(--gold-light); }
 .modal-side p { color: rgba(255,255,255,.8); font-size: 14px; margin-top: 10px; }
 .modal-side ul { margin-top: 14px; display: grid; gap: 8px; font-size: 13px; }
