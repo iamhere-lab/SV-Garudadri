@@ -433,3 +433,6 @@ p  { color: var(--muted); }
   .footer-bottom { flex-direction: column; }
   .thanks-card { padding: 40px 24px; }
 }
+.banks li img {
+    height: 20px;
+}
