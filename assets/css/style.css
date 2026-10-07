@@ -425,7 +425,7 @@ body { padding-bottom: 68px; }
   .hero-media { height: min(66svh, 600px); min-height: 460px; }
   .hero-card-wrap { margin-top: -330px; padding-bottom: 0; }
   .hero-card--form { grid-template-columns: 1fr 420px; gap: 0; padding: 0; align-items: stretch; overflow: hidden; }
-  .hero-card__info { padding: 48px 44px 40px; display: flex; flex-direction: column; justify-content: center; }
+  .hero-card__info { padding: 48px 44px 40px; display: flex; flex-direction: column; justify-content: flex-start; }
   .hero-card__form { border-top: 0; border-left: 1px solid var(--line); background: #fffdfa; padding: 34px 32px 28px; }
   .hero-card--form .hero-stats { grid-template-columns: repeat(2, 1fr); gap: 26px 10px; }
 }
