@@ -130,6 +130,23 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 36px); }
 
 /* ---------- hero ---------- */
 .hero { position: relative; background: var(--background); }
+
+/* banner-image hero (desktop 1920x960 / mobile 1080x1350 via <picture>) */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.hero__banner { display: block; width: 100%; padding: 0; background: var(--primary); cursor: pointer; }
+.hero__banner img { display: block; width: 100%; height: auto; }
+.hero__banner:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.hero__cta { background: var(--primary); color: var(--primary-fg); border-top: 1px solid rgba(227, 183, 122, .25); padding: 1.25rem 1.5rem; }
+.hero__cta-inner { max-width: 1400px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 1rem; text-align: center; }
+.hero__cta p { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .5rem 1.5rem; font-size: .66rem; letter-spacing: .18em; text-transform: uppercase; color: rgba(248, 245, 240, .6); }
+.hero__cta p b { display: inline-flex; align-items: center; gap: .4rem; color: var(--accent); font-weight: 500; }
+.hero__cta p .icon { width: 16px; height: 16px; fill: var(--accent); --ic2: var(--primary-fg); }
+.hero__cta-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; }
+.btn--ghost-light { border: 1px solid rgba(248, 245, 240, .3); color: var(--primary-fg); letter-spacing: .08em; }
+.btn--ghost-light:hover { background: var(--primary-fg); color: var(--primary); }
+.btn--ghost-light .icon { fill: currentColor; }
+@media (min-width: 768px) { .hero__cta-inner { flex-direction: row; justify-content: space-between; text-align: left; } .hero__cta p { justify-content: flex-start; } }
+@media (min-width: 1024px) { .hero__cta { padding: 1.25rem 2.5rem; } }
 .hero__media { position: relative; height: calc(100vh - var(--header-h) - 34px); min-height: 640px; max-height: 980px; width: 100%; overflow: hidden; }
 .hero__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; animation: slow-zoom 26s ease-out forwards; }
 @keyframes slow-zoom { from { transform: scale(1.08); } to { transform: scale(1); } }
