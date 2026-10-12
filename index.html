@@ -7,11 +7,12 @@
 <meta name="description" content="SV Garudadri by S.V. Group: ready-to-move 2 &amp; 3 BHK homes inside ORR Exit 9, Pocharam. 2 BHK starting from ₹55 Lakhs*, 3 BHK starting from ₹72 Lakhs*. TS RERA P02200007683.">
 <meta property="og:title" content="SV Garudadri | Get Today's Price & Available Units">
 <meta property="og:description" content="Ready-to-move 2 &amp; 3 BHK homes inside ORR Exit 9, Pocharam. 2 BHK from ₹55 Lakhs*, 3 BHK from ₹72 Lakhs*.">
-<meta property="og:image" content="assets/img/hero.jpg">
+<meta property="og:image" content="assets/img/hero-banner-desktop.jpg">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_IN">
 <link rel="icon" href="assets/img/logo.png" type="image/png">
-<link rel="preload" as="image" href="assets/img/hero.jpg">
+<link rel="preload" as="image" href="assets/img/hero-banner-desktop.jpg" media="(min-width: 768px)">
+<link rel="preload" as="image" href="assets/img/hero-banner-mobile.jpg" media="(max-width: 767px)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap">
@@ -121,46 +122,20 @@
 <main>
 <!-- ============ HERO ============ -->
 <section id="home" class="hero">
-  <div class="hero__media">
-    <img class="hero__img" src="assets/img/hero.jpg" alt="SV Garudadri residential blocks at dusk, Pocharam" width="2000" height="1125">
-    <div class="hero__shade"></div>
-    <div class="hero__content">
-      <div class="reveal">
-        <span class="hero__line"></span>
-        <span class="hero__offer"><svg class="icon"><use href="#i-tag"/></svg>Ready to move Gated Community Apartments</span>
-      </div>
-      <div class="reveal" style="transition-delay:250ms">
-        <h1><span>A Well-Connected Address</span><span>Inside ORR – <em>Exit 9, Pocharam</em></span></h1>
-        <p class="hero__by">SV Garudadri by S.V. Group</p>
-        <div class="hero__badges">
-          <span class="badge badge--accent"><svg class="icon"><use href="#i-ready"/></svg>HMDA & RERA Approved</span>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- Banner images carry the hero text; the h1 keeps it readable for search engines and screen readers -->
+  <h1 class="sr-only">A Well-Connected Address Inside ORR – Exit 9, Pocharam · SV Garudadri by S.V. Group · Ready to Move Gated Community Apartments · 2 BHK starting from ₹55 Lakhs* (1109–1240 Sq. Ft.) · 3 BHK starting from ₹72 Lakhs* (1479–1603 Sq. Ft.)</h1>
+  <button type="button" class="hero__banner" data-open-modal data-source="Hero Banner" aria-label="Enquire about SV Garudadri">
+    <picture>
+      <source media="(max-width: 767px)" srcset="assets/img/hero-banner-mobile.jpg" width="1080" height="1350">
+      <img src="assets/img/hero-banner-desktop.jpg" width="1920" height="960" alt="SV Garudadri — Ready to move gated community apartments inside ORR Exit 9, Pocharam. 2 BHK from ₹55 Lakhs*, 3 BHK from ₹72 Lakhs*" fetchpriority="high">
+    </picture>
+  </button>
 
-  <div class="hero__card-wrap reveal" style="transition-delay:150ms">
-    <div class="hero__card">
-      <div class="stats">
-        <div class="stat stat--hl">
-          <span class="stat__ic"><svg class="icon"><use href="#i-pin"/></svg></span>
-          <div><p class="stat__v">Inside ORR – Exit 9</p><p class="stat__l">Pocharam, Hyderabad</p></div>
-        </div>
-        <div class="stat stat--hl">
-          <span class="stat__ic"><svg class="icon"><use href="#i-ready"/></svg></span>
-          <div><p class="stat__v">Ready to Move</p><p class="stat__l">Move in today</p></div>
-        </div>
-        <div class="stat">
-          <span class="stat__ic"><svg class="icon"><use href="#i-rupee"/></svg></span>
-          <div><p class="stat__v">2 BHK <small>₹55 Lakhs*</small></p><p class="stat__l">Starting from<br>1109-1240 Sq. Ft.</p></div>
-        </div>
-        <div class="stat">
-          <span class="stat__ic"><svg class="icon"><use href="#i-home"/></svg></span>
-          <div><p class="stat__v">3 BHK <small>₹72 Lakhs*</small></p><p class="stat__l">Starting from<br>1479–1603 Sq. Ft.</p></div>
-        </div>
-      </div>
-      <div class="hero__card-foot">
-        <p>TS RERA · P02200007683 &nbsp;|&nbsp; <b>Hurry! 90% inventory already sold</b></p>
+  <div class="hero__cta">
+    <div class="hero__cta-inner">
+      <p><span>TS RERA · P02200007683</span><b><svg class="icon"><use href="#i-flame"/></svg>Hurry! 90% inventory already sold</b></p>
+      <div class="hero__cta-actions">
+        <a class="btn btn--ghost-light" href="tel:+919577330011" data-phone-link><svg class="icon"><use href="#i-phone"/></svg><span data-phone-text>+91 95773 30011</span></a>
         <button type="button" class="btn btn--accent" data-open-modal data-source="Hero - Enquire Now">Enquire Now</button>
       </div>
     </div>
