@@ -120,7 +120,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 36px); }
 .header.menu-open .mobile-nav { display: block; }
 .mobile-nav a { display: block; padding: .9rem 0; border-bottom: 1px solid var(--border); font-size: .95rem; }
 .mobile-nav .btn { margin-top: 1.25rem; width: 100%; }
-@media (min-width: 640px) { .header__cta { display: inline-block; } .header__call span { display: inline; } }
+@media (min-width: 640px) { .header__cta { display: inline-block; font-size: 16px; font-weight: 500;} .header__call span { display: inline; font-size: 18px; font-weight: 700; } }
 @media (min-width: 1024px) {
   .header__inner { padding: 0 2.5rem; }
   .header__logo img { height: 46px; }
